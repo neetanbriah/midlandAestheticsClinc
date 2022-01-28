@@ -20,7 +20,7 @@ a {
 
 a:hover {
   color: #bababa;
-  text-decoration: overline;
+  text-decoration: wavy;
 }
 
 h1,
@@ -89,7 +89,7 @@ hr {
   background: transparent;
 }
 #topbar.topbar-scrolled {
-  top: -30px;
+  top: -50px;
 }
 #topbar i {
   color: #ffffff;
@@ -105,8 +105,8 @@ hr {
 # Header
 --------------------------------------------------------------*/
 #header {
-  top: 10%;
-  height: 100px;
+  top: 50px;
+  height: 70px;
   z-index: 997;
   transition: all 0.5s;
   padding: 5px 0;
@@ -125,6 +125,9 @@ hr {
   margin-right: auto;
   max-height: 100px;
   width: auto;
+  /* padding: 0;
+  margin: 0;
+  max-height: 40px; */
 }
 
 /*--------------------------------------------------------------
@@ -729,30 +732,12 @@ section {
   font-weight: 400;
   color: #ffffff;
 }
-/* .clinics img {
+.clinics img {
   border-radius: 7px;
-  max-width: 400px;
-  max-height: 450px;
-  opacity: 0.7;
-  filter: contrast(180%), drop-shadow(8px 8px 10px rgb(255, 255, 255));
-} */
-.lclinics .imit {
-  width: 250px;
-  height: 350px;
-  max-height: 420px;
-  overflow: hidden;
+  width: 300px;
+  height: 300px;
 }
-.clinics .limit img {
-  width: 100%;
-  height: 100%;
-}
-.clinics .row-wrapper {
-  background-color: rgb(0, 0, 0);
-  text-align: center;
-  border-radius: 20px;
-  box-shadow: 0 20px 40px #ffffff;
-  margin-bottom: 50px;
-}
+
 .clinics .content h3 {
   font-weight: 400;
   font-size: 34px;
