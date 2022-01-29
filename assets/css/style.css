@@ -925,7 +925,7 @@ section {
 .team .header {
   padding-top: 40px;
 }
-.team::before {
+/* .team::before {
   content: "";
   position: absolute;
   left: 0;
@@ -934,7 +934,8 @@ section {
   bottom: 0;
   background: rgba(0, 0, 0, 0.8);
   z-index: 9;
-}
+} */
+
 .team .container {
   position: relative;
   z-index: 10;
