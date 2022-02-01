@@ -106,7 +106,7 @@ hr {
 --------------------------------------------------------------*/
 #header {
   top: 50px;
-  height: 70px;
+  height: 120px;
   z-index: 997;
   transition: all 0.5s;
   padding: 5px 0;
@@ -123,7 +123,7 @@ hr {
   display: inline;
   margin-left: auto;
   margin-right: auto;
-  max-height: 100px;
+  max-height: 120px;
   width: auto;
   /* padding: 0;
   margin: 0;
@@ -507,6 +507,9 @@ section {
   opacity: 0.9;
   filter: contrast(180%), drop-shadow(8px 8px 10px rgb(255, 255, 255));
 }
+.about .about-wrapper {
+  border: 3px dashed #ffffff;
+}
 
 .about .content {
   padding: 0;
@@ -726,7 +729,6 @@ section {
 .clinics {
   background: #000000;
 }
-
 .clinics .title {
   font-size: 35px;
   font-weight: 400;
@@ -737,7 +739,12 @@ section {
   width: 300px;
   height: 300px;
 }
-
+.clinics .clinics-wrapper {
+  border: 1px dashed #ffffff;
+}
+.clinics .box {
+  padding: 10px 10px 10px 10px;
+}
 .clinics .content h3 {
   font-weight: 400;
   font-size: 34px;
