@@ -1048,7 +1048,6 @@ section {
   justify-content: center;
   align-items: center;
   border-radius: 20px;
-
   border-color: #000000;
   transition: all 0.3s ease-in-out;
 }
@@ -1071,8 +1070,9 @@ section {
   color: #000000;
 }
 .contact .info:hover i {
-  background: #696969;
-  color: #ffffff;
+  background: #dbdbdb;
+  color: #000000;
+  border-color: #000000;
 }
 .contact .php-email-form {
   width: 100%;
@@ -1129,6 +1129,19 @@ section {
 }
 .contact .php-email-form textarea {
   padding: 10px 12px;
+  /* font-style: italic; */
+}
+::-webkit-input-placeholder {
+  font-style: italic;
+}
+:-moz-placeholder {
+  font-style: italic;  
+}
+::-moz-placeholder {
+  font-style: italic;  
+}
+:-ms-input-placeholder {  
+  font-style: italic; 
 }
 .contact .php-email-form button[type="submit"] {
   font-weight: 600;
