@@ -362,13 +362,17 @@ hr {
 #hero .carousel-content {
   text-align: center;
 }
-#hero h2 {
+#hero h4 {
   color: #fff;
   margin-bottom: 30px;
-  font-size: 48px;
-  font-weight: 700;
+  font-size: 17px;
+  font-weight: 300;
+  width: 80%;
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+  margin: 0 auto 30px auto;
 }
-#hero h2 span {
+#hero h4 span {
   color: #ffffff;
 }
 #hero p {
