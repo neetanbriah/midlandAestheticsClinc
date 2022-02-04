@@ -1132,7 +1132,6 @@ section {
 .contact .php-email-form input,
 .contact .php-email-form textarea {
   border-radius: 0;
-  box-shadow: black;
   font-size: 14px;
 }
 .contact .php-email-form input {
