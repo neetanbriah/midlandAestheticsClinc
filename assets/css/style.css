@@ -1132,7 +1132,7 @@ section {
 .contact .php-email-form input,
 .contact .php-email-form textarea {
   border-radius: 0;
-  box-shadow: #000000;
+  box-shadow: black;
   font-size: 14px;
 }
 .contact .php-email-form input {
@@ -1209,7 +1209,7 @@ section {
   margin: 0 0 15px 0;
 }
 #footer p {
-  font-size: 15;
+  font-size: 15px;
   /* font-style: italic; */
   padding: 0;
   margin: 0 0 40px 0;
