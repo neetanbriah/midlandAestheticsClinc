@@ -233,7 +233,7 @@ hr {
 */
 .mobile-nav-toggle {
   color: #fff;
-  font-size: 28px;
+  font-size: 35px;
   cursor: pointer;
   display: none;
   line-height: 0;
@@ -262,7 +262,7 @@ hr {
 }
 .navbar-mobile .mobile-nav-toggle {
   position: absolute;
-  top: 15px;
+  top: 25px;
   right: 15px;
 }
 .navbar-mobile ul {
@@ -1224,15 +1224,16 @@ section {
 }
 #footer h3 {
   font-size: 36px;
-  font-weight: 450;
+  font-weight: 600;
   color: #ffffff;
   position: relative;
   padding: 0;
-  margin: 0 0 15px 0;
+  margin: 0 0 0 0;
 }
 #footer p {
   font-size: 15px;
   /* font-style: italic; */
+  font-weight: 50;
   padding: 0;
   margin: 0 0 40px 0;
 }
