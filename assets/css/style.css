@@ -525,7 +525,7 @@ section {
 }
 .about .content h3 {
   font-weight: 400;
-  font-size: 50px;
+  font-size: 30px;
   color: #000000;
 }
 .about .content h4 {
@@ -539,8 +539,9 @@ section {
   color: #000000;
 }
 .about .content ul {
-  list-style: upper-roman;
-  color: #ffffff;
+  list-style: square;
+  list-style: inside;
+  color: #000000;
   padding: 0;
 }
 .about .content ul li + li {
