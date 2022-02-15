@@ -987,6 +987,13 @@ section {
   font-size: 14px;
   color: #000000;
 }
+.contact a {
+  text-decoration: none;
+  color: #000000;
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+}
 .contact .info i {
   font-size: 20px;
   color: #ffffff;
