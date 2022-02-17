@@ -11,6 +11,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #444444;
+  overflow-x: hidden;
 }
 
 a {
@@ -426,6 +427,7 @@ hr {
 --------------------------------------------------------------*/
 section {
   padding: 60px 0;
+  /* background-color: #ffffff; */
 }
 
 .section-bg {
@@ -451,6 +453,88 @@ section {
 .section-title p {
   margin: 15px auto 0 auto;
   font-weight: 300;
+}
+
+.custom-shape-divider-top-1645125004 {
+  position: absolute;
+  /* top: 0; */
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1645125004 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 56px;
+}
+
+.custom-shape-divider-top-1645125004 .shape-fill {
+  fill: #ffffff;
+}
+
+.custom-shape-divider-top-1645123898 {
+  position: absolute;
+  /* top: 0; */
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1645123898 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 56px;
+}
+
+.custom-shape-divider-top-1645123898 .shape-fill {
+  fill: #000000;
+}
+
+.custom-shape-divider-top-1645124224 {
+  position: absolute;
+  /* top: 0; */
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1645124224 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 56px;
+}
+
+.custom-shape-divider-top-1645124224 .shape-fill {
+  fill: #ffffff;
+}
+
+.custom-shape-divider-top-1645125100 {
+  position: absolute;
+  /* top: 0; */
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1645125100 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 56px;
+}
+
+.custom-shape-divider-top-1645125100 .shape-fill {
+  fill: #000000;
 }
 
 /*--------------------------------------------------------------
@@ -513,8 +597,7 @@ section {
   background: #000000;
 }
 .about .about-wrapper {
-  background: #ffffff;
-  box-shadow: 0px 2px 15px #000000;
+  background: #000000;
   position: relative;
   padding: 5%;
   border-radius: 20px;
@@ -525,7 +608,7 @@ section {
 }
 
 .about .content .heading h4 {
-  color: #000000;
+  color: #ffffff;
   position: relative;
   font-size: 20px;
   font-weight: 300;
@@ -544,38 +627,45 @@ section {
   font-size: 26px;
   font-weight: 400;
   letter-spacing: 6px;
-  color: #000000;
+  color: #ffffff;
   font-family: "Roboto", sans-serif;
 }
 
 .about .content {
   padding: 3%;
   position: relative;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 .about .content h3 {
   font-weight: 400;
   font-size: 30px;
-  color: #000000;
+  color: #ffffff;
 }
+.about .heading h4 {
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 5px;
+  color: rgb(255, 255, 255);
+}
+
 .about .content h4 {
   font-size: 20px;
   font-weight: 500;
   margin-top: 5px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 .about .content p {
   font-size: 14px;
-  color: #000000;
+  color: #ffffff;
   font-family: "Roboto", sans-serif;
 }
 .about .content ul {
   list-style: square;
   list-style: inside;
-  color: #000000;
+  color: #ffffff;
   padding: 0;
-  font-size: 15px;
+  font-size: 14px;
   font-family: "Roboto", sans-serif;
 }
 .about .content ul li + li {
@@ -729,13 +819,15 @@ section {
 .menu {
   background: #ffffff;
 }
+
 .menu .container {
-  background-color: #000000;
+  background-color: rgb(0, 0, 0);
   border-radius: 20px;
   box-shadow: 0 20px 40px #000000;
   margin-bottom: 50px;
-  padding: 2%;
+  padding: 3%;
 }
+
 .menu .title h2 {
   font-size: 26px;
   font-weight: 400;
@@ -828,17 +920,17 @@ section {
   background: #000000;
 }
 .team .container {
-  background-color: rgb(255, 255, 255);
+  background-color: #000000;
   text-align: center;
   border-radius: 20px;
-  box-shadow: 0 20px 40px #000000;
+  box-shadow: 0 0 40px #000000;
   margin-bottom: 50px;
 }
 .team .title h2 {
   font-size: 25px;
   font-weight: 400;
   letter-spacing: 4px;
-  color: #000000;
+  color: #ffffff;
   font-family: "Roboto", sans-serif;
 }
 .team .icon {
@@ -858,6 +950,7 @@ section {
   margin-left: 30px;
   margin-right: 30px;
   box-shadow: 0 10px 20px rgba(0, 0, 0);
+  background-color: #ffffff;
 }
 .team .card-body {
   position: relative;
@@ -1084,3 +1177,25 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+/* .about-us::before {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 2px;
+  background: rgb(255, 255, 255);
+  left: 96px;
+  top: 66px;
+  position: absolute;
+}
+
+.about-us::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 2px;
+  background: rgb(255, 255, 255);
+  right: 96px;
+  top: 66px;
+  position: absolute;
+} */
