@@ -346,14 +346,13 @@ hr {
 
 #hero .image {
   width: auto;
-  height: 35vh;
+  height: 50vh;
   background-color: rgb(0, 0, 0);
 }
 #hero .container-image {
-  bottom: 0;
-  top: 20%;
-  left: 1%;
+  left: 0;
   right: 0;
+  bottom: 40%;
   position: absolute;
 }
 
@@ -362,8 +361,7 @@ hr {
   justify-content: center;
   align-items: flex-end;
   position: absolute;
-  bottom: 25%;
-  top: 0;
+  top: 55%;
   left: 0;
   right: 0;
   text-align: center;
@@ -371,30 +369,31 @@ hr {
 #hero .carousel-content {
   text-align: center;
 }
+
+#hero .container-wrapper {
+}
+
 #hero h4 {
   color: #fff;
   margin-bottom: 30px;
-  font-size: 17px;
-  font-weight: 300;
-  width: 80%;
+  font-size: 12px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  font-family: "Roboto", sans-serif;
+  width: 60%;
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
 }
 #hero h4 span {
+  padding: 3%;
   color: #ffffff;
 }
-#hero p {
-  width: 80%;
-  -webkit-animation-delay: 0.4s;
-  animation-delay: 0.4s;
-  margin: 0 auto 30px auto;
-  color: #fff;
-}
 #hero .btn-menu {
-  font-weight: 600;
+  font-weight: 400;
   font-size: 13px;
   letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   display: inline-block;
   padding: 12px 30px;
@@ -1059,11 +1058,11 @@ section {
   font-size: 14px;
   color: #000000;
   font-family: "Roboto", sans-serif;
+  text-decoration: none;
 }
 .contact a {
   text-decoration: none;
   color: #000000;
-  padding: 0 0 0 20px;
   margin-bottom: 0;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
