@@ -616,8 +616,8 @@ section {
   font-family: "Roboto", sans-serif;
 }
 .about .sub-heading {
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 15px;
+  font-weight: 300;
   letter-spacing: 2px;
   line-height: 2;
   font-family: "Roboto", sans-serif;
@@ -960,13 +960,12 @@ section {
   padding-top: 40px;
 }
 .team ul {
-  list-style: none;
-  margin-left: -38px;
+  margin-left: -8px;
+  list-style-type: square;
 }
 
 .team ul li:before {
-  /* content: "✓"; */
-  content: "\2714\0020";
+  /* content: "\2714\0020"; */
 }
 
 .team .container {
