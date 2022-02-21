@@ -346,7 +346,7 @@ hr {
 
 #hero .image {
   width: auto;
-  height: 55vh;
+  height: 50vh;
   background-color: rgb(0, 0, 0);
 }
 #hero .container-image {
@@ -376,7 +376,7 @@ hr {
 #hero h4 {
   color: #fff;
   margin-bottom: 30px;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 100;
   letter-spacing: 3px;
   font-family: "Roboto", sans-serif;
@@ -623,7 +623,7 @@ section {
 }
 
 .about .title h2 {
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 400;
   letter-spacing: 6px;
   color: #ffffff;
@@ -729,7 +729,7 @@ section {
   background: #ffffff;
 }
 .clinics .title h2 {
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 400;
   letter-spacing: 6px;
   color: #ffffff;
@@ -828,7 +828,7 @@ section {
 }
 
 .menu .title h2 {
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 400;
   letter-spacing: 6px;
   font-family: "Roboto", sans-serif;
@@ -1033,7 +1033,7 @@ section {
   background: #ffffff;
 }
 .contact .title h2 {
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 400;
   letter-spacing: 6px;
   color: rgb(0, 0, 0);
@@ -1134,12 +1134,13 @@ section {
 }
 #footer h3 {
   font-size: 36px;
-  font-weight: 600;
+  font-weight: 500;
   color: #ffffff;
   position: relative;
   padding: 0;
   margin: 0 0 0 0;
   letter-spacing: 10px;
+  font-family: "Roboto", sans-serif;
 }
 #footer p {
   font-size: 15px;
@@ -1148,6 +1149,7 @@ section {
   margin: 0 0 40px 0;
   line-height: 2;
   letter-spacing: 5px;
+  font-family: "Roboto", sans-serif;
 }
 #footer .social-links {
   margin: 0 0 40px 0;
