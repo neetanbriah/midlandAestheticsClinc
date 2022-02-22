@@ -154,16 +154,20 @@ hr {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0 10px 24px;
-  font-size: 15px;
-  font-weight: 500;
+  padding: 10px 0 10px 15px;
+  font-size: 13px;
+  /* font-weight: 500; */
   color: white;
   white-space: nowrap;
   transition: 0.3s;
+  font-weight: 100;
+  letter-spacing: 3px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
 }
 .navbar a i,
 .navbar a:focus i {
-  font-size: 12px;
+  font-size: 10px;
   line-height: 0;
   margin-left: 5px;
 }
@@ -289,9 +293,13 @@ hr {
 .navbar-mobile a,
 .navbar-mobile a:focus {
   padding: 10px 20px;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 2;
   color: #ffffff;
+  letter-spacing: 5px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-weight: 100;
 }
 .navbar-mobile a:hover,
 .navbar-mobile .active,
@@ -346,7 +354,7 @@ hr {
 
 #hero .image {
   width: auto;
-  height: 50vh;
+  height: 47vh;
   background-color: rgb(0, 0, 0);
 }
 #hero .container-image {
@@ -841,6 +849,7 @@ section {
   z-index: 3;
   font-weight: 400;
   color: #ffffff;
+  font-family: "Roboto", sans-serif;
 }
 .menu h2 {
   font-weight: 400;
@@ -851,6 +860,7 @@ section {
   display: flex;
   justify-content: space-between;
   position: relative;
+  font-family: "Roboto", sans-serif;
 }
 .menu .menu-content::after {
   content: "......................................................................"
@@ -871,6 +881,7 @@ section {
   z-index: 3;
   font-weight: 400;
   color: #ffffff;
+  font-family: "Roboto", sans-serif;
 }
 .menu .menu-content p {
   padding-right: 10px;
@@ -879,6 +890,7 @@ section {
   z-index: 3;
   font-weight: 400;
   color: #ffffff;
+  font-family: "Roboto", sans-serif;
 }
 .menu .menu-content span {
   background: rgb(0, 0, 0);
@@ -887,6 +899,7 @@ section {
   z-index: 3;
   padding: 0 10px;
   font-weight: 600;
+  font-family: "Roboto", sans-serif;
 }
 .menu .menu-ingredients {
   font-size: 13px;
@@ -905,11 +918,13 @@ section {
   color: #ffffff;
   font-size: 18px;
   font-weight: 200;
+  font-family: "Roboto", sans-serif;
 }
 .menu h6 {
   color: #ffffff;
   font-size: 14px;
   font-weight: 50;
+  font-family: "Roboto", sans-serif;
 }
 
 /*--------------------------------------------------------------
