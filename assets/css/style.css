@@ -376,10 +376,6 @@ hr {
 #hero .carousel-content {
   text-align: center;
 }
-
-#hero .container-wrapper {
-}
-
 #hero h4 {
   color: #fff;
   margin-bottom: 30px;
@@ -976,11 +972,6 @@ section {
   margin-left: -8px;
   list-style-type: square;
 }
-
-.team ul li:before {
-  /* content: "\2714\0020"; */
-}
-
 .team .container {
   position: relative;
   z-index: 10;
