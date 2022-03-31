@@ -622,6 +622,7 @@ section {
   font-weight: 300;
   letter-spacing: 2px;
   line-height: 2;
+  list-style: none;
   font-family: "Roboto", sans-serif;
 }
 
@@ -658,31 +659,41 @@ section {
 }
 
 .about .content p {
-  font-size: 14px;
+  font-size: 12px;
   color: #ffffff;
   font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 .about .content ul {
-  list-style: square;
-  list-style: inside;
+  list-style: none;
   color: #ffffff;
   padding: 0;
-  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 10px;
   font-family: "Roboto", sans-serif;
 }
 .about .content ul li + li {
   margin-top: 15px;
 }
+
+.about .tab {
+  margin-left: 20px;
+}
+
 .about .content ul li {
   position: relative;
   padding-left: 26px;
 }
 .about .content ul i {
-  font-size: 50px;
+  font-size: 30px;
   color: #ffffff;
   position: absolute;
   left: 0;
   top: 2px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 .about .content p:last-child {
   margin-bottom: 0;
@@ -739,10 +750,10 @@ section {
   font-family: "Roboto", sans-serif;
 }
 .clinics img {
-  border-radius: 3px;
-  width: 200px;
-  height: 200px;
-  padding: 3%;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+  padding: 0%;
 }
 .clinics .container-wrapper {
   background-color: rgb(0, 0, 0);
@@ -850,6 +861,8 @@ section {
   margin-top: 30px;
   overflow: hidden;
   display: flex;
+  text-transform: uppercase;
+  letter-spacing: 1px;
   justify-content: space-between;
   position: relative;
   font-family: "Roboto", sans-serif;
@@ -901,7 +914,7 @@ section {
 .menu h4 {
   color: #ffffff;
   font-size: 20px;
-  font-weight: 100;
+  font-weight: 300;
   letter-spacing: 3px;
   font-family: "Roboto", sans-serif;
 }
@@ -914,9 +927,11 @@ section {
 }
 .menu h6 {
   color: #ffffff;
-  font-size: 14px;
-  font-weight: 50;
+  font-size: 12px;
+  font-weight: 100;
   font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 /*--------------------------------------------------------------
@@ -962,7 +977,7 @@ section {
   text-transform: uppercase;
   letter-spacing: 3px;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 600;
   font-family: "Poppins", sans-serif;
 }
 
@@ -970,7 +985,7 @@ section {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 10px;
-  font-weight: 500;
+  font-weight: 400;
   font-family: "Poppins", sans-serif;
 }
 .team .card-body {
@@ -982,7 +997,7 @@ section {
 }
 .team ul {
   margin-left: -8px;
-  list-style-type: square;
+  list-style-type: none;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 12px;
